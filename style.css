@@ -65,7 +65,7 @@ a {
 
 .jobTitle {
   font-size: 10vw;
-  color: #333;
+  color: rgb(214, 207, 207);
   line-height: 100vh;
   cursor: default;
 }
@@ -112,11 +112,11 @@ a {
   overflow: scroll;
 }
 
-.phoneScreen::-webkit-scrollbar {
+.sr-hidden::-webkit-scrollbar {
   display: none;
 }
 
-.phoneScreen {
+.sr-hidden {
   scrollbar-width: none;
 }
 
@@ -196,14 +196,6 @@ a {
 .laptopApp {
   width: 100%;
   cursor: pointer;
-}
-
-.laptopScreen::-webkit-scrollbar {
-  display: none;
-}
-
-.laptopScreen {
-  scrollbar-width: none;
 }
 
 .githubContainer {

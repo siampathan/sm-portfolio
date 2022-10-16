@@ -6,7 +6,7 @@ const jobTitleContainers = document.querySelectorAll(".jobTitleContainer");
 const jobTitles = document.querySelectorAll(".jobTitle");
 const projectsTitle = document.querySelector(".projectsTitle");
 const phones = document.querySelectorAll(".phone");
-const laptop = document.querySelector(".laptop");
+const laptops = document.querySelectorAll(".laptop");
 
 for (let i = 0; i < 365; i++) {
   const list = [
@@ -45,6 +45,7 @@ window.addEventListener("scroll", () => {
   jobTitles[1].style.transform = `translateX(calc(-300vh + ${offsetY}px))`;
   projectsTitle.style.transform = `translateY(calc(400vh - ${offsetY}px))`;
   phones[0].style.transform = `translateX(calc(500vh - ${offsetY}px))`;
-  laptop.style.transform = `translateX(calc(600vh - ${offsetY}px))`;
+  laptops[0].style.transform = `translateX(calc(600vh - ${offsetY}px))`;
   phones[1].style.transform = `translateX(calc(750vh - ${offsetY}px))`;
+  laptops[1].style.transform = `translateX(calc(900vh - ${offsetY}px))`;
 });
